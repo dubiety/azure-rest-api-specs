@@ -1149,15 +1149,15 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "../../../Common/stable/2023-06-01/common.json#/definitions/GeoJsonFeature"
-        },
-        {
           "type": "object",
           "properties": {
             "properties": {
               "$ref" : "#/definitions/BoundaryProperties"
             }
           }
+        },
+        {
+          "$ref": "../../../Common/stable/2023-06-01/common.json#/definitions/GeoJsonFeature"
         }
       ]
     },
