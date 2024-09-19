@@ -1152,7 +1152,12 @@
           "$ref": "../../../Common/stable/2023-06-01/common.json#/definitions/GeoJsonFeature"
         },
         {
-          "$ref": "#/definitions/BoundaryProperties"
+          "type": "object",
+          "properties": {
+            "properties": {
+              "$ref" : "#/definitions/BoundaryProperties"
+            }
+          }
         }
       ]
     },
