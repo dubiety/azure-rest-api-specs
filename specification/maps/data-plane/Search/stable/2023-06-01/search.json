@@ -1147,7 +1147,7 @@
     "Boundary": {
       "description": "`GeoJSON GeocodingFeature` object that describe the boundaries of a geographical area. Geometry of the feature is described with `GeoJSON GeometryCollection`.\n\nPlease note, the service typically returns a GeometryCollection with Polygon or MultiPolygon sub-types.",
       "type": "object",
-      "allOf": [
+      "anyOf": [
         {
           "type": "object",
           "properties": {
